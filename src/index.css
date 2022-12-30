@@ -95,25 +95,6 @@ hr {
   gap: 5rem;
 }
 
-.circle {
-  height: 10rem;
-  width: 100%;
-  border-radius: 0 0 5rem 5rem;
-  position: absolute;
-  z-index: -1;
-}
-
-.circle1 {
-  display: none;
-}
-
-.circle2 {
-  background: linear-gradient(180deg, #5f86e7 0%, rgba(209, 209, 209, 0) 100%);
-  bottom: 0;
-  transform: rotate(180deg);
-  z-index: -10;
-}
-
 .hero__text-container {
   text-align: center;
   font-size: 2rem;
@@ -332,16 +313,6 @@ textarea:hover {
     align-items: center;
     justify-content: center;
     gap: 10rem;
-  }
-
-  .circle {
-    height: 30rem;
-    width: 30rem;
-    border-radius: 0 100% 0 0;
-  }
-
-  .circle2 {
-    display: none;
   }
 
   .p {

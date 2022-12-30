@@ -3,9 +3,6 @@ import logo from "../img/Logo.png";
 export const Hero = () => {
   return (
     <div className="hero" id="home">
-      <div className="circle circle1"></div>
-      <div className="circle circle2"></div>
-
       <div className="hero__container">
         <img className="hero__logo" src={logo} alt="Alejandro Vargas Logo." />
         <div className="hero__text-container">
