@@ -111,6 +111,7 @@ hr {
   background: linear-gradient(180deg, #5f86e7 0%, rgba(209, 209, 209, 0) 100%);
   bottom: 0;
   transform: rotate(180deg);
+  z-index: -10;
 }
 
 .hero__text-container {
@@ -119,7 +120,7 @@ hr {
 }
 
 .hero__logo {
-  width: 20rem;
+  width: 16rem;
 }
 
 .hero__h1 {
