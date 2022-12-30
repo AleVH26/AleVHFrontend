@@ -27,20 +27,24 @@ export const Contact = () => {
           <FaGithubSquare />
         </a>
       </div>
-      <form className="contact__form">
+      <form
+        className="contact__form"
+        action="https://formspree.io/f/xoqzqajo"
+        method="POST"
+      >
         <div className="contact__form-input-container">
           <label id="name">Name</label>
           <input type="text" id="name" />
         </div>
         <div className="contact__form-input-container">
           <label id="email">Email</label>
-          <input type="email" id="email" />
+          <input type="email" id="email" name="email"/>
         </div>
         <div className="contact__form-input-container">
           <label id="message">Message</label>
-          <textarea id="message"></textarea>
+          <textarea id="message" name="message"></textarea>
         </div>
-        <button className="contact__form-button">Send</button>
+        <button type="submit" className="contact__form-button">Send</button>
       </form>
       <p className="rights">All rights reserved. Alejandro Vargas. ©</p>
     </div>
