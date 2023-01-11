@@ -14,7 +14,7 @@ export const Contact = () => {
       <div className="contact__icons-container">
         <a
           className="contact__icon"
-          href="https://www.linkedin.com/in/alejandro-vargas-hern%C3%A1ndez-05b299235/"
+          href="https://www.linkedin.com/in/alevhdev/"
           target="_blank"
         >
           <FaLinkedin />
