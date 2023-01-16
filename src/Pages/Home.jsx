@@ -7,8 +7,8 @@ import { Projects } from "../components/Projects";
 export const Home = () => {
   return (
     <>
-      <Navbar />
       <Hero />
+      <Navbar />
       <About />
       <Projects />
       <Contact />

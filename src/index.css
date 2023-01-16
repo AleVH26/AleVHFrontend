@@ -50,13 +50,12 @@ hr {
 .navbar {
   align-items: center;
   display: flex;
-  height: 100px;
+  height: 8rem;
   justify-content: center;
-  position: fixed;
+  position: sticky;
   width: 100%;
-  background-color: var(--red);
+  background-color: var(--blue);
   top: 0;
-  border-radius: 0 0 5rem 5rem;
   font-weight: bold;
   box-shadow: 0 0.8rem 1rem rgba(0 0 0 / 0.5);
 }
@@ -74,7 +73,7 @@ hr {
 }
 
 .navbar__link:hover {
-  color: var(--blue);
+  color: #232323;
   text-decoration: underline;
   transition: all 0.2s ease-in-out;
 }
@@ -382,15 +381,15 @@ textarea:hover {
   /* Hero */
 
   .hero__logo {
-    width: 30rem;
+    width: 40rem;
   }
 
   .hero__h1 {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   .p {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   /* About */
